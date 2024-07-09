@@ -57,7 +57,10 @@ const Login = () => {
       <div className="flex items-center justify-center mt-28">
         <div className="w-96 border rounded bg-white px-7 py-10">
           <form onSubmit={handleLogin}>
-            <h4 className="text-2xl mb-7">Login</h4>
+            <h4 className="text-2xl mb-3">Login</h4>
+            <p className="text-xs pb-1 text-gray-600">Puedes testear la aplicación con:</p>
+            <p className="text-xs pb-1 text-blue-400">Email: test@test.com</p>
+            <p className="text-xs pb-5 text-blue-400">Contraseña: test123</p>
 
             <input 
               type="text" 
